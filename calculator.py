@@ -1,6 +1,7 @@
 from tkinter import *
 
 root=Tk()
+root.title("simple calculator")
 
 Label(root,text="Enter the number 1").pack()
 num1=Entry(root)
